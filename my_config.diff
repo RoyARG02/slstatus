@@ -1,0 +1,4 @@
+68c68
+< 	{ datetime, "%s",           "%F %T" },
+---
+> 	{ datetime, "%s",           "%a %d %b %I:%M" },
