@@ -1,9 +1,11 @@
---- config.def.h	2020-12-17 11:22:06.049999988 +0530
-+++ config.def.h	2020-12-17 19:30:16.473333226 +0530
-@@ -65,5 +65,5 @@
+--- config.def.h	2020-12-21 19:57:02.466666631 +0530
++++ config.def.h	2020-12-21 21:51:22.296666581 +0530
+@@ -65,5 +65,7 @@
   */
  static const struct arg args[] = {
  	/* function format          argument */
 -	{ datetime, "%s",           "%F %T" },
++	{ ram_used, "[MEM %s]",     NULL             },
++	{ separator," ",            NULL             },
 +	{ datetime, "%s",           "%a %d %b %I:%M" },
  };
